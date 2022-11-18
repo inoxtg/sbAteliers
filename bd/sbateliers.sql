@@ -45,7 +45,8 @@ CREATE TABLE `atelier` (
 LOCK TABLES `atelier` WRITE;
 /*!40000 ALTER TABLE `atelier` DISABLE KEYS */;
 INSERT INTO `atelier` VALUES (1,'Liquide vaisselle',8,2,'2022-10-13','2022-10-19 10:30:00',2),
-                             (2,'Détachant Linge',10,1,'2022-10-13','2022-10-19 14:00:00',2);
+                             (2,'Détachant Linge',10,1,'2022-10-13','2022-10-19 14:00:00',2),
+                             (3,'Menage Express',20,1,'2022-10-20','2022-10-19 15:00:00',2);
 /*!40000 ALTER TABLE `atelier` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -108,6 +109,7 @@ CREATE TABLE `participer` (
 LOCK TABLES `participer` WRITE;
 /*!40000 ALTER TABLE `participer` DISABLE KEYS */;
 INSERT INTO `participer` VALUES (1,1,'2022-09-13'),
+                                (1,2,'2022-09-14'),
                                 (3,1,'2022-01-13');
 /*!40000 ALTER TABLE `participer` ENABLE KEYS */;
 UNLOCK TABLES;

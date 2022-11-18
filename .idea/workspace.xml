@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b368f396-a291-4b0b-ad06-e80b3b0cc9be" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/bd/interroger.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bd/interroger.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bd/sbateliers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bd/sbateliers.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vues/vue-accueil.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.1" />
+  <component name="ProjectId" id="2EqiMA62VQQpEWj69X8kZYKqbUT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/bin/composer",
+    "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "NONE",
+    "settings.editor.selected.configurable": "php.test.frameworks.configurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="PHP-WEB-8.1" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" router_script="$PROJECT_DIR$/index.php" use_router_script="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="PHP-8.1" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/index.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 8.1" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Built-in Web Server.PHP-WEB-8.1" />
+      <item itemvalue="PHP Script.PHP-8.1" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b368f396-a291-4b0b-ad06-e80b3b0cc9be" name="Changes" comment="" />
+      <created>1663329466192</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663329466192</updated>
+      <workItem from="1663329467540" duration="1495000" />
+      <workItem from="1663332825863" duration="19368000" />
+      <workItem from="1663584470583" duration="939000" />
+      <workItem from="1663942291605" duration="3018000" />
+      <workItem from="1663958496822" duration="520000" />
+      <workItem from="1663959369168" duration="2249000" />
+      <workItem from="1664187514899" duration="866000" />
+      <workItem from="1664541745889" duration="3781000" />
+      <workItem from="1664789277346" duration="411000" />
+      <workItem from="1665150421329" duration="3718000" />
+      <workItem from="1665393838591" duration="27000" />
+      <workItem from="1665747769749" duration="2892000" />
+      <workItem from="1666107483360" duration="889000" />
+      <workItem from="1666348950197" duration="6907000" />
+      <workItem from="1667389029636" duration="88000" />
+      <workItem from="1667407626593" duration="751000" />
+      <workItem from="1668691008139" duration="3000" />
+      <workItem from="1668776882768" duration="8776000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/entites/ResponsableAteliersTest.php</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
