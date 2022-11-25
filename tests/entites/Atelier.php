@@ -9,7 +9,7 @@ class Atelier{
     protected DateTime $dateEnreg;
     protected DateTime $dateProg;
 
-    protected ResponsableAteliers $respAtelier;
+    protected $respAtelier;
 
     /**
      * @param int $numero
@@ -22,6 +22,10 @@ class Atelier{
         $this->dateEnreg = $dateEnreg;
         $this->dateProg = $dateProg;
 
+    }
+
+    public function supResp(){
+        $this->respAtelier = null;
     }
 
     public function __contruct(){}
@@ -78,7 +82,7 @@ class Atelier{
     /**
      * @return ResponsableAteliers
      */
-    public function getRespAtelier(): ResponsableAteliers
+    public function getRespAtelier()
     {
         return $this->respAtelier;
     }
@@ -86,16 +90,24 @@ class Atelier{
     /**
      * @param ResponsableAteliers $respAtelier
      */
-    public function setRespAtelier(ResponsableAteliers $respAtelier): void
+    public function setRespAtelier( $respAtelier): void
     {
         $this->respAtelier = $respAtelier;
     }
 
     public function toString(){
-        return "[ATELIER] "
-            . " Numero : " . $this->getNumero()
-            . " DateEnregistrement : " . $this->getDateEnreg()->format('Y-m-d')
-            . " DateProgrammée : " . $this->getDateProg()->format('Y-m-d')
-            . " Responsable : " . $this->getRespAtelier()->toString();
+        if($this->respAtelier != null){
+            return "[ATELIER] "
+                . " Numero : " . $this->getNumero()
+                . " DateEnregistrement : " . $this->getDateEnreg()->format('Y-m-d')
+                . " DateProgrammée : " . $this->getDateProg()->format('Y-m-d')
+                . " Responsable : " . $this->getRespAtelier()->toString();
+        }else{
+            return "[ATELIER] "
+                . " Numero : " . $this->getNumero()
+                . " DateEnregistrement : " . $this->getDateEnreg()->format('Y-m-d')
+                . " DateProgrammée : " . $this->getDateProg()->format('Y-m-d');
+        }
+
     }
 }

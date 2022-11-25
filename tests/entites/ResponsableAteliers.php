@@ -24,9 +24,6 @@ class ResponsableAteliers
         $this->prenom = $prenom;
     }
 
-    public function supResp(ResponsableAteliers $resp){
-        unset($resp);
-    }
     /**
      * @return int
      */
@@ -96,26 +93,43 @@ class ResponsableAteliers
 
     public function progAtelier(Atelier $atelier): bool{
         $cpt = count($this->ateliers);
-        $atelier->setRespAtelier($this);
-        $this->ateliers[] = $atelier;
+        if(
+            $atelier->getDateProg()->format("Y-m-d") > $atelier->getDateEnreg()->format("Y-m-d")
+        ){
+            if(
+                 date_diff($atelier->getDateProg(), $atelier->getDateEnreg())->format('%d') >= 7
+                |date_diff($atelier->getDateProg(), $atelier->getDateEnreg())->format('%m') >= 1
+                |date_diff($atelier->getDateProg(), $atelier->getDateEnreg())->format('%y') >= 1
+            ){
+                $atelier->setRespAtelier($this);
+                $this->ateliers[] = $atelier;
+            }
+        }
         $cpt2 = count($this->ateliers);
-
-        if($cpt2 - $cpt == 1){
+        if(
+            $cpt2 - $cpt == 1
+        ){
             return true;
         }
         return false;
     }
 
     public function suppAteliers(){
-        array_pop($this->ateliers);
         foreach($this->getAteliers() as $unAtelier){
-            $unAtelier->setRespAtelier($this->supResp($this));
+            array_pop($this->ateliers);
+            $unAtelier->supResp();
         }
+
     }
 
     public function getAteliersAvenir(){
-        foreach($this->ateliers->getDateProg() as $date){
-            return $date;
+        $date = new DateTime("now");
+        $dateFormat = $date->format('Y-m-d');
+
+        foreach($this->ateliers as $ateliers){
+            if($ateliers->getDateProg()->format('Y-m-d') > $dateFormat){
+                echo $ateliers->toString() . "\n" ;
+            }
         }
     }
 
