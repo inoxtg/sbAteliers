@@ -125,12 +125,14 @@ class ResponsableAteliers
     public function getAteliersAvenir(){
         $date = new DateTime("now");
         $dateFormat = $date->format('Y-m-d');
+        $ats = [];
 
         foreach($this->ateliers as $ateliers){
             if($ateliers->getDateProg()->format('Y-m-d') > $dateFormat){
-                echo $ateliers->toString() . "\n" ;
+                $ats = $ateliers;
             }
         }
+        return $ats;
     }
 
     public function toString(): String {

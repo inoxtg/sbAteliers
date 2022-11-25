@@ -1,1 +1,1 @@
-{"version":1,"defects":[],"times":{"ResponsableAteliersTest::testProgAtelier":0.001}}
+{"version":1,"defects":{"ResponsableAteliersTest::testProgAtelier":3,"ResponsableAteliersTest::testGetAteliersVenir":3},"times":{"ResponsableAteliersTest::testProgAtelier":0.001,"ResponsableAteliersTest::testGetAteliersVenir":0,"ResponsableAteliersTest::testSuppAteliers":0}}

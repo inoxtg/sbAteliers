@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b368f396-a291-4b0b-ad06-e80b3b0cc9be" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbateliers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbateliers.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/entites/Atelier.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/entites/Atelier.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/entites/ResponsableAteliers.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/entites/ResponsableAteliers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/entites/ResponsableAteliersTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/entites/ResponsableAteliersTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/entites/testeur.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/entites/testeur.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Util/Getopt.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Util/Getopt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/vendor/bin/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/vendor/bin/.phpunit.result.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +129,7 @@
       <workItem from="1669291883102" duration="17000" />
       <workItem from="1669298533164" duration="76000" />
       <workItem from="1669378243934" duration="6317000" />
-      <workItem from="1669384573271" duration="2050000" />
+      <workItem from="1669384573271" duration="3254000" />
     </task>
     <servers />
   </component>
